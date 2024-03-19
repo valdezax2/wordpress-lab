@@ -25,7 +25,7 @@ sudo cp wp-config-sample.php wp-config.php
 
 #install mariadb database
 sudo yum install mariadb105-server.x86_64 -y
-sudo systecmctl start mariadb
+sudo systemctl start mariadb
 sudo mysqladmin -u root create blog
 
 
